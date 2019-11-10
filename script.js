@@ -57,6 +57,7 @@ document.getElementById('btn-sort-nama').addEventListener('click', () => {
     if (user1.nama < user2.nama) return -1;
   });
 
+  // Tampilkan data
   displayData(arrUser);
 });
 
@@ -67,6 +68,7 @@ document.getElementById('btn-sort-umur').addEventListener('click', () => {
     if (user1.umur < user2.umur) return -1;
   });
 
+  // Tampilkan data
   displayData(arrUser);
 });
 
@@ -77,6 +79,7 @@ document.getElementById('btn-sort-gender').addEventListener('click', () => {
     if (user1.gender < user2.gender) return -1;
   });
 
+  // Tampilkan data
   displayData(arrUser);
 });
 
@@ -87,5 +90,6 @@ document.getElementById('btn-sort-pekerjaan').addEventListener('click', () => {
     if (user1.pekerjaan < user2.pekerjaan) return -1;
   });
 
+  // Tampilkan data
   displayData(arrUser);
 });
