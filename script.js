@@ -22,6 +22,7 @@ displayData = a => {
               </tr>
           `;
   });
+  // Tampilkan data (output) di table
   document.getElementById('table-body').innerHTML = output;
 };
 
