@@ -43,6 +43,9 @@ document.getElementById('btn-submit').addEventListener('click', e => {
   // Push data ke arrUser
   arrUser.push(new User(nama, umur, gender, pekerjaan));
 
+  // Reset form
+  document.getElementById('user-form').reset();
+
   // Tampilkan data ke table
   displayData(arrUser);
 });
