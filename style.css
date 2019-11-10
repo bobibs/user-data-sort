@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+  text-align: center;
+  background: cadetblue;
+  color: #fff;
+}
+
+.sort button {
+  margin: 10px 10px 0 10px;
+}
+
+table {
+  text-align: center;
+}
