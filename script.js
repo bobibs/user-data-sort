@@ -86,11 +86,3 @@ document.getElementById('btn-sort-pekerjaan').addEventListener('click', () => {
 
   displayData(arrUser);
 });
-
-// Fungsi reset
-document.getElementById('btn-sort-reset').addEventListener('click', () => {
-  arrUser.sort((user1, user2) => {
-    if (user1 > user2) return 1;
-    if (user1 < user2) return -1;
-  });
-});
